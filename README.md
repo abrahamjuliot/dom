@@ -8,37 +8,37 @@ fast and simple document object model library
 ### equivalent to document.getElementById()
 ```javascript
 const 
-  $introElement1 = dom('intro', 'id'),  // uses getElementById, returns an Element object
-  $introElement2 = dom('#intro', 'id'); // uses getElementById, returns an Element object
+  introElement1 = dom('intro', 'id'),  // uses getElementById, returns an Element object
+  introElement2 = dom('#intro', 'id'); // uses getElementById, returns an Element object
   
 ```
 
 ### equivalent to document.querySelector()
 ```javascript
 const
-  $noteAnchorElement = dom('.note a', 'first');  // uses querySelector, returns an Element object
+  noteAnchorElement = dom('.note a', 'first');  // uses querySelector, returns an Element object
   
 ```
 
 ### equivalent to document.getElementsByClassName()
 ```javascript
 const
-  $redElements1 = dom('red', 'class'),  // uses getElementsByClassName, returns a HTMLCollection object
-  $redElements2 = dom('.red', 'class'); // uses getElementsByClassName, returns a HTMLCollection object
+  redElements1 = dom('red', 'class'),  // uses getElementsByClassName, returns a HTMLCollection object
+  redElements2 = dom('.red', 'class'); // uses getElementsByClassName, returns a HTMLCollection object
   
 ```
 
 ### equivalent to document.getElementsByTagName()
 ```javascript
 const
-  $spanElements = dom('span', 'tag'); // uses getElementsByTagName, returns a HTMLCollection object
+  spanElements = dom('span', 'tag'); // uses getElementsByTagName, returns a HTMLCollection object
   
 ```
 
 ### equivalent to document.querySelectorAll()
 ```javascript
 const
-  $articlesImgElements = dom('article img'); // uses querySelectorAll, returns a NodeList object
+  articlesImgElements = dom('article img'); // uses querySelectorAll, returns a NodeList object
   
 ```
 
@@ -84,6 +84,6 @@ myElements.removeClass('note'); // remove class from HTMLCollection or NodeList
 myElement.toggleClass('note');  // toggle class on Element
 myElements.toggleClass('note'); // toggle class on HTMLCollection or NodeList
 myElement.onTouch(myFunction);  // listen for click event on Element
-myElements.onTouch(myFunction); // isten for click event on HTMLCollection or NodeList
+myElements.onTouch(myFunction); // listen for click event on HTMLCollection or NodeList
 
 ```
