@@ -29,14 +29,14 @@ const
 ### equivalent to document.getElementsByTagName() // => HTMLCollection
 ```javascript
 const
-  $spanElements = dom('span', 'tag') // uses getElementsByTagName, returns a HTMLCollection object
+  $spanElements = dom('span', 'tag'); // uses getElementsByTagName, returns a HTMLCollection object
   
 ```
 
 ### equivalent to document.querySelectorAll() // => NodeList
 ```javascript
 const
-  $articlesImgElements = dom('article img') // uses querySelectorAll, returns a NodeList object
+  $articlesImgElements = dom('article img'); // uses querySelectorAll, returns a NodeList object
   
 ```
 
@@ -64,12 +64,12 @@ myElements.node(); // returns the elements wrapped in a div Node object
 ```
 ### Check if an element has a class
 ```javascript
-myElement.hasClass('note') // returns true or false
+myElement.hasClass('note'); // returns true or false
 
 ```
 ### Check if each element--within an HTMLCollection or NodeList--has a class
 ```javascript
-myElements.eachHaveClass('note') // returns true or false
+myElements.eachHaveClass('note'); // returns true or false
 
 ```
 
