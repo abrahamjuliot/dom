@@ -67,7 +67,7 @@ myElements.node(); // returns the elements wrapped in a div Node object
 myElement.hasClass('note'); // returns true or false
 
 ```
-### Check if each element--within an HTMLCollection or NodeList--has a class
+### Check if each element—within an HTMLCollection or NodeList—has a class
 ```javascript
 myElements.eachHaveClass('note'); // returns true or false
 
