@@ -46,12 +46,12 @@ const
 
 ### return HTML of Element
 ```javascript
-  myElement.html(); // returns outerHTML string
+myElement.html(); // returns outerHTML string
 ```
 
 ### return HTML of HTMLCollection or NodeList
 ```javascript
-  myElements.html(); // returns outerHTML string containing each element
+myElements.html(); // returns outerHTML string containing each element
 ```
 
 ### return Node object of Element
