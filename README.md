@@ -3,7 +3,7 @@ fast and simple document object model library
 
 ## Selectors
 
-### equivalent to document.getElementById() // => Element
+### equivalent to document.getElementById()
 ```javascript
 const 
   $introElement1 = dom('intro', 'id'),  // uses getElementById, returns an Element object
@@ -11,14 +11,14 @@ const
   
 ```
 
-### equivalent to document.querySelector() // => Element
+### equivalent to document.querySelector()
 ```javascript
 const
   $noteAnchorElement = dom('.note a', 'first');  // uses querySelector, returns an Element object
   
 ```
 
-### equivalent to document.getElementsByClassName() // => HTMLCollection
+### equivalent to document.getElementsByClassName()
 ```javascript
 const
   $redElements1 = dom('red', 'class'),  // uses getElementsByClassName, returns a HTMLCollection object
@@ -26,14 +26,14 @@ const
   
 ```
 
-### equivalent to document.getElementsByTagName() // => HTMLCollection
+### equivalent to document.getElementsByTagName()
 ```javascript
 const
   $spanElements = dom('span', 'tag'); // uses getElementsByTagName, returns a HTMLCollection object
   
 ```
 
-### equivalent to document.querySelectorAll() // => NodeList
+### equivalent to document.querySelectorAll()
 ```javascript
 const
   $articlesImgElements = dom('article img'); // uses querySelectorAll, returns a NodeList object
